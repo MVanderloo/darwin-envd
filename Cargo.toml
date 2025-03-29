@@ -1,0 +1,7 @@
+[package]
+name = "darwin-envd"
+version = "0.1.0"
+edition = "2024"
+description = "Declaratively set environment variables in MacOS. Designed for parity with environment.d"
+
+[dependencies]
