@@ -2,6 +2,9 @@
 name = "darwin-envd"
 version = "0.1.0"
 edition = "2024"
-description = "Declaratively set environment variables in MacOS. Designed for parity with environment.d"
+authors = [ "Michael van der Loo" ]
+description = "Declaratively set environment variables in MacOS. Designed for parity with environment.d for Linux."
 
 [dependencies]
+clap = { version = "4.4", features = ["derive"] }
+regex = "1.11.1"
